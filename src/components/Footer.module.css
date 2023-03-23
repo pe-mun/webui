@@ -1,0 +1,17 @@
+.footer{
+    background: var(--gray-800);
+    color: var(--white);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.footer p{
+    font-size: 0.875rem;
+    
+}
