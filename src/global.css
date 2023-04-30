@@ -26,10 +26,12 @@
   }
   
   body{
-      background-image: url(https://laracon.net/2022-summer/hero-bw.jpg?v=2);  
-      background-size: 51%;
+      /* background-image: url(https://laracon.net/2022-summer/hero-bw.jpg?v=2);  
+      background-size: 51%; */
       color: var(--gray-900);
       -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      
   }
   
   body, input, textarea, button{
@@ -37,3 +39,6 @@
       font-weight: 400;
       font-size: 1rem;
   }
+
+
+  

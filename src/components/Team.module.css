@@ -1,0 +1,27 @@
+.titulo{
+    text-align: center;
+    margin-top: 5rem;
+    
+}    
+
+.subtitulo{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+    margin-bottom: 2rem;
+    color: var(--gray-400);
+    text-align: center;
+}
+
+.img{
+    width: calc(12rem + 12px);
+    height: calc(12rem + 12px);
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.li{
+    justify-content: center;
+}
+

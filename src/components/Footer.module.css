@@ -1,13 +1,12 @@
 .footer{
     background: var(--gray-800);
     color: var(--white);
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     
 }
 

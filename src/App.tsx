@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
+import { About } from './components/About'
+import {Team} from './components/Team'
 import './global.css'
 
 
@@ -9,9 +11,12 @@ export function App() {
 
   return (
     <div>
-      <Header></Header>
+      <div><Header></Header></div>
       <div>
-     
+        <About></About>
+      </div>
+      <div>
+        <Team></Team>
       </div>
       <Footer></Footer>
     </div>
