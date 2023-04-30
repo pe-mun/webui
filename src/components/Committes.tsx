@@ -1,6 +1,6 @@
 import styles from './Committes.module.css'
 
-import viceSecretariaGeral from '../assets/viceSecretariaGeral.png'
+import viceSecretariaGeral from '../assets/viceSecretariaGeral.jpeg'
 
 
 export function Committes(){
