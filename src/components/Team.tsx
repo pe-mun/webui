@@ -18,8 +18,8 @@ import secretariaComunicacao3 from '../assets/secretariaComunicacao3.png'
 export function Team() {
     return (
       <div className="container">
-        <div>
-          <h1 className={styles.titulo}>Nosso Time</h1>
+        <div >
+          <h1 id="nosso-time" className={styles.titulo}>Nosso Time</h1>
           <h5 className={styles.subtitulo}>A função de cada um do nosso time</h5>
         </div>
         <div className="row justify-content-center">

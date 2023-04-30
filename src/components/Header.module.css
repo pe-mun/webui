@@ -9,6 +9,7 @@
     top: 0;
     width: 100%;
     z-index: 9999;
+    margin-bottom: 30px;
   }
   
   .header a {
@@ -21,6 +22,9 @@
     border-radius: 9999px;
     transition: 0.2s;
     cursor: pointer;
+  }
+  .hidden {
+    display: none;
   }
   
   .header a:hover {
@@ -80,4 +84,9 @@
     .toggleBtn.active span:last-child {
       transform: rotate(-45deg) translate(5px, -5px);
     }
+    .hidden {
+        display: none;
+      }
   }
+
+  

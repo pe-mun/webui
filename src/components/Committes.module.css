@@ -5,9 +5,6 @@
      
 }
 
-.content{
-    align-items: center;
-}
 
 .subtitulo{
     font-size: 1rem;
@@ -23,11 +20,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
   
 .card {
     display: block;
-    width: 300px;
+    width: 350px;
+    height: 420px;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -35,11 +34,16 @@
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
   }
   
 .card:hover {
     transform: translateY(-5px);
   }
+
+.card:hover .card-body {
+    background-image: url('../assets/secretariaAcademica2.png');
+}
   
 .card-title {
     margin-top: 0;
@@ -52,9 +56,18 @@
   }
   
 .card-body {
-    padding: 20px;
     font-size: 16px;
     line-height: 1.5;
-  }
+}
 
+
+.card-img{
+    width: 350px;
+    height: 320px;
+}
+
+.card-footer{
+    text-align: center;
+    margin-top: 0.5rem;
+}
 
