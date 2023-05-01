@@ -35,13 +35,10 @@ export function Header() {
         <a href="#committes" onClick={handleClick}>
           COMITÊS
         </a>
-        <a href="#" onClick={handleClick}>
-          EVENTOS
-        </a>
         <a href="#nosso-time" onClick={handleClick}>
           NOSSO TIME
         </a>
-        <a href="#" onClick={handleClick}>
+        <a href="#footer" onClick={handleClick}>
           CONTATO
         </a>
         <a href="#files" onClick={handleClick}>

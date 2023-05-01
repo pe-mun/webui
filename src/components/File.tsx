@@ -32,7 +32,7 @@ export function File() {
                 <Accordion className={styles.accordionn} allowZeroExpanded>
                 <AccordionItem uuid="item-1" onClick={() => onAccordionButtonClick("item-1")} >
                   <AccordionItemButton className={styles.accordion__button}>
-                    CII: Comitê de Imprensa Internacional
+                      PMA: PROGRAMA MUNDIAL DE ALIMENTOS
                   </AccordionItemButton>
                   <AccordionItemPanel className={styles.accordion__panel}>
                     <div className={styles.nested}>
@@ -59,7 +59,7 @@ export function File() {
                 </AccordionItem>
                 <AccordionItem uuid="item-2" onClick={() => onAccordionButtonClick("item-2")} >
                   <AccordionItemButton className={styles.accordion__button}>
-                    CII: Comitê de Imprensa Internacional
+                      CIJ1: CORTE INTERNACIONAL DE JUSTIÇA
                   </AccordionItemButton>
                   <AccordionItemPanel className={styles.accordion__panel}>
                     <div className={styles.nested}>
@@ -86,7 +86,7 @@ export function File() {
                 </AccordionItem>
                 <AccordionItem uuid="item-3" onClick={() => onAccordionButtonClick("item-3")} >
                   <AccordionItemButton className={styles.accordion__button}>
-                    CII: Comitê de Imprensa Internacional
+                      UNESCO: ORGANIZAÇÃO DAS NAÇÕES UNIDAS PARA A EDUCAÇÃO, CIÊNCIA E CULTURA
                   </AccordionItemButton>
                   <AccordionItemPanel className={styles.accordion__panel}>
                     <div className={styles.nested}>
@@ -113,7 +113,7 @@ export function File() {
                 </AccordionItem>
                 <AccordionItem uuid="item-4" onClick={() => onAccordionButtonClick("item-4")} >
                   <AccordionItemButton className={styles.accordion__button}>
-                    CII: Comitê de Imprensa Internacional
+                      GRU1: GABINETE RUSSO-UCRANIANO
                   </AccordionItemButton>
                   <AccordionItemPanel className={styles.accordion__panel}>
                     <div className={styles.nested}>
@@ -140,7 +140,7 @@ export function File() {
                 </AccordionItem>
                 <AccordionItem uuid="item-5" onClick={() => onAccordionButtonClick("item-5")} >
                   <AccordionItemButton className={styles.accordion__button}>
-                    CII: Comitê de Imprensa Internacional
+                      AGNU50: ASSEMBLEIA GERAL DAS NAÇÕES UNIDAS 2050
                   </AccordionItemButton>
                   <AccordionItemPanel className={styles.accordion__panel}>
                     <div className={styles.nested}>
@@ -167,7 +167,115 @@ export function File() {
                 </AccordionItem>
                 <AccordionItem uuid="item-6" onClick={() => onAccordionButtonClick("item-6")} >
                   <AccordionItemButton className={styles.accordion__button}>
-                    CII: Comitê de Imprensa Internacional
+                      CEPAL1: COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y CARIBE
+                  </AccordionItemButton>
+                  <AccordionItemPanel className={styles.accordion__panel}>
+                    <div className={styles.nested}>
+                      <Accordion allowZeroExpanded>
+                        <AccordionItem uuid="nested-item-1" onClick={() => onAccordionButtonClick("nested-item-1")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            Nested Accordion Item #1
+                          </AccordionItemButton>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <p>Conteúdo do item aninhado 1 do acordeão.</p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                        <AccordionItem uuid="nested-item-2" onClick={() => onAccordionButtonClick("nested-item-2")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            Nested Accordion Item #2
+                          </AccordionItemButton>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <p>Conteúdo do item aninhado 2 do acordeão.</p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                      </Accordion>
+                    </div>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem uuid="item-7" onClick={() => onAccordionButtonClick("item-7")} >
+                  <AccordionItemButton className={styles.accordion__button}>
+                      SCONY1: SUPREMA CORTE DO ESTADO DE NOVA YORK
+                  </AccordionItemButton>
+                  <AccordionItemPanel className={styles.accordion__panel}>
+                    <div className={styles.nested}>
+                      <Accordion allowZeroExpanded>
+                        <AccordionItem uuid="nested-item-1" onClick={() => onAccordionButtonClick("nested-item-1")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            Nested Accordion Item #1
+                          </AccordionItemButton>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <p>Conteúdo do item aninhado 1 do acordeão.</p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                        <AccordionItem uuid="nested-item-2" onClick={() => onAccordionButtonClick("nested-item-2")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            Nested Accordion Item #2
+                          </AccordionItemButton>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <p>Conteúdo do item aninhado 2 do acordeão.</p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                      </Accordion>
+                    </div>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem uuid="item-8" onClick={() => onAccordionButtonClick("item-8")} >
+                  <AccordionItemButton className={styles.accordion__button}>
+                      UNSC: UNITED NATIONS SECURITY COUNCIL
+                  </AccordionItemButton>
+                  <AccordionItemPanel className={styles.accordion__panel}>
+                    <div className={styles.nested}>
+                      <Accordion allowZeroExpanded>
+                        <AccordionItem uuid="nested-item-1" onClick={() => onAccordionButtonClick("nested-item-1")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            Nested Accordion Item #1
+                          </AccordionItemButton>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <p>Conteúdo do item aninhado 1 do acordeão.</p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                        <AccordionItem uuid="nested-item-2" onClick={() => onAccordionButtonClick("nested-item-2")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            Nested Accordion Item #2
+                          </AccordionItemButton>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <p>Conteúdo do item aninhado 2 do acordeão.</p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                      </Accordion>
+                    </div>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem uuid="item-9" onClick={() => onAccordionButtonClick("item-9")} >
+                  <AccordionItemButton className={styles.accordion__button}>
+                      UNOOSA: ESCRITÓRIO DAS NAÇÕES UNIDAS PARA ASSUNTOS DO ESPAÇO SIDERAL
+                  </AccordionItemButton>
+                  <AccordionItemPanel className={styles.accordion__panel}>
+                    <div className={styles.nested}>
+                      <Accordion allowZeroExpanded>
+                        <AccordionItem uuid="nested-item-1" onClick={() => onAccordionButtonClick("nested-item-1")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            Nested Accordion Item #1
+                          </AccordionItemButton>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <p>Conteúdo do item aninhado 1 do acordeão.</p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                        <AccordionItem uuid="nested-item-2" onClick={() => onAccordionButtonClick("nested-item-2")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            Nested Accordion Item #2
+                          </AccordionItemButton>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <p>Conteúdo do item aninhado 2 do acordeão.</p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                      </Accordion>
+                    </div>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem uuid="item-10" onClick={() => onAccordionButtonClick("item-10")} >
+                  <AccordionItemButton className={styles.accordion__button}>
+                      CII: COMITÊ DE IMPRENSA INTERNACIONAL
                   </AccordionItemButton>
                   <AccordionItemPanel className={styles.accordion__panel}>
                     <div className={styles.nested}>

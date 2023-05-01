@@ -25,49 +25,52 @@
   
 .card {
     display: block;
-    width: 350px;
-    height: 420px;
-    margin: 10px;
-    border-radius: 5px;
+    width: 24rem;
+    height: 28rem;
+    border-radius: 0.3125rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    margin: 30px;
+    margin: 1rem;
+    
   }
   
-.card:hover {
-    transform: translateY(-5px);
+  .card:hover {
+    transition: 0.7s;
+    transition-timing-function: ease-in;
+    transform: rotateY(180deg) scaleX(-1);
+    cursor: pointer;
+    perspective: 1000px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   }
 
-.card:hover .card-body {
-    background-image: url('../assets/secretariaAcademica2.jpeg');
-}
-  
-.card-title {
-    margin-top: 0;
-    padding: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    background-color: var(--gray-400);
+.card:not(:hover) {
+    transition: none;
   }
   
+.card.is-flipping:hover {
+    pointer-events: none;
+}
+
 .card-body {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
 
 .card-img{
-    width: 350px;
-    height: 320px;
+    width: 100%;
+    height: 21rem;
+    border-bottom: 1px solid var(--gray-300);
+
+    
+    
 }
 
 .card-footer{
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 0.875rem;
+    
 }
-

@@ -23,7 +23,7 @@ export function Team() {
           <h5 className={styles.subtitulo}>A função de cada um do nosso time</h5>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaGeral} />
@@ -32,7 +32,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={viceSecretariaGeral}/>
@@ -41,7 +41,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaAcademica1}/>
@@ -50,7 +50,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaAcademica2}/>
@@ -59,7 +59,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaAcademica3}/>
@@ -68,7 +68,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaAcademica4}/>
@@ -77,7 +77,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaAcademica5}/>
@@ -86,7 +86,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaAcademica6}/>
@@ -95,7 +95,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaAcademica7}/>
@@ -104,7 +104,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretarioAdmFin}/>
@@ -113,7 +113,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaComunicacao1}/>
@@ -122,7 +122,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaComunicacao2}/>
@@ -131,7 +131,7 @@ export function Team() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <ul className="flex-column d-flex flex-column justify-content-center text-center" style={{ listStyleType: "none" }}>
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaComunicacao3}/>
