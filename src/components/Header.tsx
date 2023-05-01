@@ -44,7 +44,7 @@ export function Header() {
         <a href="#" onClick={handleClick}>
           CONTATO
         </a>
-        <a href="#" onClick={handleClick}>
+        <a href="#files" onClick={handleClick}>
           ARQUIVOS
         </a>
       </nav>

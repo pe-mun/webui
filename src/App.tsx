@@ -4,7 +4,10 @@ import { Footer } from './components/Footer'
 import { About } from './components/About'
 import {Team} from './components/Team'
 import { Committes } from "./components/Committes"
+import { File } from './components/File'
+
 import './global.css'
+
 
 
 export function App() {
@@ -21,6 +24,9 @@ export function App() {
       </div>
       <div>
       <Committes></Committes>
+      </div>
+      <div>
+        <File></File>
       </div>
       <Footer></Footer>
     </div>
