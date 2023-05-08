@@ -5,7 +5,7 @@ export function Footer(){
         <footer className={styles.footer}>
                 <div id='footer'>
                     <h5 className={styles.contato}>Contato: <a href="mailto:pernambucomun@gmail.com">pernambucomun@gmail.com</a> </h5>
-                    <p>Developed By BirDD <br/> Copyright ©</p>
+                    <p>Developed By Victor Medeiros <br/> Copyright © 2023</p>
                     
 
                     </div>

@@ -67,7 +67,7 @@ export function Committes(){
                                 <img className={styles['card-img']} src={cardImages.PMA}/>
                             </div>
                             <div className={styles['card-footer']}>
-                                <h4>PMA: PROGRAMA MUNDIAL DE ALIMENTOS</h4>
+                                <h5>PMA: PROGRAMA MUNDIAL DE ALIMENTOS</h5>
                             </div>
                         </div>
                         </div>
@@ -77,7 +77,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.CIJ1}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>CIJ1: CORTE INTERNACIONAL DE JUSTIÇA</h4>
+                                    <h5>CIJ1: CORTE INTERNACIONAL DE JUSTIÇA</h5>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ export function Committes(){
                                 <img className={styles['card-img']} src={cardImages.UNESCO}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>UNESCO: ORGANIZAÇÃO DAS NAÇÕES UNIDAS PARA A EDUCAÇÃO, CIÊNCIA E CULTURA</h4>
+                                    <h5>UNESCO: ORGANIZAÇÃO DAS NAÇÕES UNIDAS PARA A EDUCAÇÃO, CIÊNCIA E CULTURA</h5>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.GRU1}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>GRU1: GABINETE RUSSO-UCRANIANO</h4>
+                                    <h5>GRU1: GABINETE RUSSO-UCRANIANO</h5>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.AGNU50}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>AGNU50: ASSEMBLEIA GERAL DAS NAÇÕES UNIDAS 2050</h4>
+                                    <h5>AGNU50: ASSEMBLEIA GERAL DAS NAÇÕES UNIDAS 2050</h5>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.CEPAL1}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>CEPAL1: COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y CARIBE</h4>
+                                    <h5>CEPAL1: COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y CARIBE</h5>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.SCONY1}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>SCONY1: SUPREMA CORTE DO ESTADO DE NOVA YORK</h4>
+                                    <h5>SCONY1: SUPREMA CORTE DO ESTADO DE NOVA YORK</h5>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.UNSC}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>UNSC: UNITED NATIONS SECURITY COUNCIL</h4>
+                                    <h5>UNSC: UNITED NATIONS SECURITY COUNCIL</h5>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.UNOOSA}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>UNOOSA: ESCRITÓRIO DAS NAÇÕES UNIDAS PARA ASSUNTOS DO ESPAÇO SIDERAL</h4>
+                                    <h5>UNOOSA: ESCRITÓRIO DAS NAÇÕES UNIDAS PARA ASSUNTOS DO ESPAÇO SIDERAL</h5>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +163,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.CII}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h4>CII: COMITÊ DE IMPRENSA INTERNACIONAL</h4>
+                                    <h5>CII: COMITÊ DE IMPRENSA INTERNACIONAL</h5>
                                 </div>
                             </div>
                         </div>
