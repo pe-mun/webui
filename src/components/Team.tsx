@@ -19,7 +19,7 @@ export function Team() {
     return (
       <div className="container">
         <div >
-          <h1 id="nosso-time" className={styles.titulo}>NOSSO EQUIPE</h1>
+          <h1 id="nosso-time" className={styles.titulo}>NOSSA EQUIPE</h1>
           <h5 className={styles.subtitulo}>Conheça os membros do Secretariado da V edição da PEMUN</h5>
         </div>
         <div className="row justify-content-center">
