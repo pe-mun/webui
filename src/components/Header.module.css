@@ -87,6 +87,11 @@
     .hidden {
         display: none;
       }
-  }
+      @media screen and (max-width: 780px) {
+        .header{
+          display: none;
+        }
+      }
+}
 
   

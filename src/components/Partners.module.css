@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    .divParceiros {
+      display: none;
+    }
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 5rem;
+    
+}    
+
+.subtitulo{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+    margin-bottom: 2rem;
+    color: #c30f06;
+    text-align: center;
+}
+
+.img{
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1360px) {
+    .img {
+      display: none;
+    }
+    .titulo{
+       display: none;
+        
+    }    
+    
+    .subtitulo{
+        display: none;
+    }
+}
