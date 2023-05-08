@@ -60,8 +60,8 @@ export function Committes(){
             <div>
             <div className={styles.content}>
                 <div className={styles['card-container']}>
-                    <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div className={"row"}>
+                        <div className={"col-lg-3 col-md-6 col-sm-6 col-xs-12"}>
                         <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, PMA: PMA_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, PMA: PMA })}>
                             <div className={styles['card-body']}>
                                 <img className={styles['card-img']} src={cardImages.PMA}/>
