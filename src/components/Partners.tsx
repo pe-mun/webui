@@ -3,7 +3,7 @@ import Parceiros from '../assets/Parceiros.png'
 
 export function Partners(){
     return(
-        <div classname={styles.divParceiros} id="partners">
+        <div className={styles.divParceiros} id="partners">
             <h1 className={styles.titulo}>
             Parceiros
             </h1>
