@@ -131,7 +131,25 @@ export function File() {
                             Guias De Estudo
                           </AccordionItemButton>
                           <AccordionItemPanel className={styles.accordion__panel}>
-                            <p>Conteúdo do item aninhado 1 do acordeão.</p>
+                            <a href="https://drive.google.com/file/d/1ORcVivY31jC5fZpqz1rB7W5JimZ7IJik/view?usp=sharing" target='_blank'>APEC</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1-hARYUwJh6rt3tEibMHt_NzMkq0NZsdO/view?usp=sharing" target='_blank'>CII</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1ljIK0K1Nytzqq207rFky9Md957hp5_zz/view?usp=sharing" target='_blank'>COP25</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1MOOUdUA6xNI0EFpk6FvlHDr8nRCh1xn1/view?usp=sharing" target='_blank'>ONU Mulheres</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1go5VySZGIDP0jiqy7Tdju60ccHc2gOZQ/view?usp=sharing" target='_blank'>TPIR</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1DPWA8hRgA7vKFWys4tVRizgrUO3iO_bd/view?usp=sharing" target='_blank'>UNOOSA</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1RpNXmwYdPhUVfVP4ZLkoJVzeH7LggTVn/view?usp=sharing" target='_blank'>UNSC</a>
                           </AccordionItemPanel>
                         </AccordionItem>
                         <AccordionItem uuid="nested-item-2" onClick={() => onAccordionButtonClick("nested-item-2")}>
@@ -139,7 +157,27 @@ export function File() {
                             Guias Anexo
                           </AccordionItemButton>
                           <AccordionItemPanel className={styles.accordion__panel}>
-                            <p>Conteúdo do item aninhado 2 do acordeão.</p>
+                            <a href="https://drive.google.com/file/d/1O4fXPSJqaARR0XyKJDrPx3rEpPHaL-0r/view?usp=sharing" target='_blank'>APEC</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1vHMdYarb_ZLkjiMH8NEJCwcrwZDHELCA/view?usp=sharing" target='_blank'>CII</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1XTi4QOAi8z_JHJltRFIqlSvCkQVuksMe/view?usp=sharing" target='_blank'>COP25</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1ZEE5Y_pPuNOzOWCoMbTRqZ-qzswFja4D/view?usp=sharing" target='_blank'>ONU Mulheres</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1tofkoKW06MnQjGQZr4vX7mtXOmhXKj7D/view?usp=sharing" target='_blank'>TPIR</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1tofkoKW06MnQjGQZr4vX7mtXOmhXKj7D/view?usp=sharing" target='_blank'>UNOOSA</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/15ko4UibsMNTZgDTLtT0SYBtAan25sbAU/view?usp=sharing" target='_blank'>UNSC</a>
+                            <br />
+                            <a href="https://drive.google.com/file/d/1SjJRPmOFSbtiHykIh7eKEJG_f31h5yei/view?usp=sharing" target='_blank'>UNSC (COVID-19 Guide)</a>
                           </AccordionItemPanel>
                         </AccordionItem>
                       </Accordion>
@@ -158,7 +196,22 @@ export function File() {
                             Guias De Estudo
                           </AccordionItemButton>
                           <AccordionItemPanel className={styles.accordion__panel}>
-                            <p>Conteúdo do item aninhado 1 do acordeão.</p>
+                            <a href="https://drive.google.com/file/d/1oyVIJORbRJk1DE-JxcEkGbJgzVWvgxUZ/view?usp=sharing" target='_blank'>CEPAL</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1czL3m-3LAxLyWEdtQRAWP6lQa_JwkOXi/view?usp=sharing" target='_blank'>CIJ</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1qLoDX1Ii6HTiYDPIIpTVFRT4txQg06Da/view?usp=sharing" target='_blank'>CPCJC</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1heI_LlopJ6THHo8kta8Ok44CWdlGQ0QL/view?usp=sharing" target='_blank'>GABINETE</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/13TGn3eI-y8_K7akaoPeUE1VvvbAFDI6w/view?usp=sharing" target='_blank'>PNUMA</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/14YHDi_EVabnSCOj-UTu5XvXcDgflSY-2/view?usp=sharing" target='_blank'>UNSC</a>
                           </AccordionItemPanel>
                         </AccordionItem>
                         <AccordionItem uuid="nested-item-2" onClick={() => onAccordionButtonClick("nested-item-2")}>
@@ -166,7 +219,22 @@ export function File() {
                             Guias Anexo
                           </AccordionItemButton>
                           <AccordionItemPanel className={styles.accordion__panel}>
-                            <p>Conteúdo do item aninhado 2 do acordeão.</p>
+                            <a href="https://drive.google.com/file/d/1SrOasQcA-hVJ5W1hJPB990USVnNI3UgL/view?usp=sharing" target='_blank'>CEPAL</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1xF8C6COWcBwDEgVY9_aCuM3xbm-Dk37w/view?usp=sharing" target='_blank'>CIJ</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1xF8C6COWcBwDEgVY9_aCuM3xbm-Dk37w/view?usp=sharing" target='_blank'>CPCJC</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1AHNAmgAbviWaSkUDYMQHHqQfDPHP_SV5/view?usp=sharing" target='_blank'>GABINETE</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1M5zV0umqG9SQSWFlEZtkxiTKO5dJLvYn/view?usp=sharing" target='_blank'>PNUMA</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1_iLhqA0p89Ia2qL4rBEor28SV9aJ6l4j/view?usp=sharing" target='_blank'>UNSC</a>
                           </AccordionItemPanel>
                         </AccordionItem>
                       </Accordion>
@@ -185,7 +253,22 @@ export function File() {
                             Guias De Estudo
                           </AccordionItemButton>
                           <AccordionItemPanel className={styles.accordion__panel}>
-                            <p>Conteúdo do item aninhado 1 do acordeão.</p>
+                            <a href="https://drive.google.com/file/d/12SeuBOipQ9c4ggxLv1I1ixMk_31Df9RG/view?usp=sharing" target='_blank'>CIDH</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1Np7J9F5Bdp6c7ey70WMy1chHAfBLJfM_/view?usp=sharing" target='_blank'>CII</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1bFraBiMlCxU6T9Y4sDJyA9tWwfBwX2YX/view?usp=sharing" target='_blank'>DISEC</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1t0vCdi3vzBrD2gYRInUR_EEHjhc7Y5Mj/view?usp=sharing" target='_blank'>SOCHUM</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1sJJTR6FIKFAdVMMa3jFTSHNsDEMoRlLO/view?usp=sharing" target='_blank'>UNCTAD</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1GgqsmHddPxIiKHXuCnb5oxph3JB5QUyQ/view?usp=sharing" target='_blank'>UNSC</a>
                           </AccordionItemPanel>
                         </AccordionItem>
                         <AccordionItem uuid="nested-item-2" onClick={() => onAccordionButtonClick("nested-item-2")}>
@@ -193,7 +276,28 @@ export function File() {
                             Guias Anexo
                           </AccordionItemButton>
                           <AccordionItemPanel className={styles.accordion__panel}>
-                            <p>Conteúdo do item aninhado 2 do acordeão.</p>
+                            <a href="https://drive.google.com/file/d/1MoJi0rGZF4dUdvGU5G1CYVMedxya929p/view?usp=sharing" target='_blank'>CIDH</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1iyFbkK-RPHfDxjz-Irw9hCz-FYvA--FV/view?usp=sharing" target='_blank'>CII</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1iyFbkK-RPHfDxjz-Irw9hCz-FYvA--FV/view?usp=sharing" target='_blank'>DISEC</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/198_0zQqS0PAm4MWTKLFeqbYOzEm3US0P/view?usp=sharing" target='_blank'>SOCHUM</a>
+                            <br />
+                            <a href="https://drive.google.com/file/d/1Tbse6L_GVTXfeEKr_ulOn2qrHmbEo7eF/view?usp=sharing" target='_blank'>SOCHUM (Guia de Regras)</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/1MsjpsCHkHueSyiVHATHR5OY1SJuijfFj/view?usp=sharing" target='_blank'>UNCTAD</a>
+                            <br />
+                            <a href="https://drive.google.com/file/d/1MsjpsCHkHueSyiVHATHR5OY1SJuijfFj/view?usp=sharing" target='_blank'>UNCTAD (Guia de Regras)</a>
+                          </AccordionItemPanel>
+                          <AccordionItemPanel className={styles.accordion__panel}>
+                            <a href="https://drive.google.com/file/d/18LK1608WJg-v7QStNu6psxg9l3rIiBUs/view?usp=sharing" target='_blank'>UNSC</a>
+                            <br />
+                            <a href="https://drive.google.com/file/d/1rpsWIZ9G0caWbWLe7tJK_IiUysgukOvw/view?usp=sharing" target='_blank'>UNSC (Guia de Regras)</a>
                           </AccordionItemPanel>
                         </AccordionItem>
                       </Accordion>
