@@ -5,3 +5,8 @@
     margin: 0 auto;
     margin-top: 10rem;
 }
+@media screen and (max-width: 1360px) {
+    .img {
+      display: none;
+    }
+}
