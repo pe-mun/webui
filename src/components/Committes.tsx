@@ -38,9 +38,15 @@ function ModalPMA(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                  Tópico: A insegurança alimentar no contexto escolar e sua relação com a desigualdade de gênero
+                    <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/1PiFeO4qY0a8TQhpNyBKIlW1uc3jPmTs7/view?usp=sharing" target="blank" className={styles.btn}>Guia de Estudos</a>
-                <a href="https://drive.google.com/file/d/1xVhrxmExeMsbEFe6zcZvz4BwCiPszE26/view?usp=sharing" target="blank" className={styles.btn}>Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1PiFeO4qY0a8TQhpNyBKIlW1uc3jPmTs7/view?usp=sharing" target="blank" className={styles.btn}>Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/1xVhrxmExeMsbEFe6zcZvz4BwCiPszE26/view?usp=sharing" target="blank" className={styles.btn}>Guia Anexo</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -63,9 +69,17 @@ function ModalCIJ(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                    Caso A: República da Croácia x República da Sérvia - Aplicação da Convenção para a Prevenção e Repressão do Genocídio (2015).
+                    <br/>
+                    Caso B: República da Nicarágua x Estados Unidos da América - Atividades Militares e Paramilitares na e contra a Nicarágua (1984).
+                    <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/1iYnRZLDGTa7xFKGtGdOCrfOYJXU2mXt4/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://drive.google.com/file/d/1Z_93gMRvhoVX3tu4GAAbxmd6c_HvhWFP/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1iYnRZLDGTa7xFKGtGdOCrfOYJXU2mXt4/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/1Z_93gMRvhoVX3tu4GAAbxmd6c_HvhWFP/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -88,9 +102,17 @@ function ModalUNESCO(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                    Tópico A: Crise sanitária e os efeitos no setor cultural e na diversidade patrimonial.
+                    <br/>
+                    Tópico B: Economia criativa e o desenvolvimento inclusivo.
+                    <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/1sT3pihQgoF-g6Nfqz0ivIAWYCGLlWqA4/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://drive.google.com/file/d/1gMMAxSwo38suykjBP1sbM9QCJQJdb5mN/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1sT3pihQgoF-g6Nfqz0ivIAWYCGLlWqA4/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/1gMMAxSwo38suykjBP1sbM9QCJQJdb5mN/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -113,9 +135,15 @@ function ModalGRU(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                    Tópico: Guerra da Ucrânia.
+                    <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="#" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/15l64L4FyAGEXeQHLTwiL7zHO3rh_cQro/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -138,9 +166,16 @@ function ModalAGNU50(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                    Tópico A: Enfrentando a catástrofe ambiental e a miséria após o colapso global dos recursos não renováveis.
+                    <br/>
+                    Tópico B: Consequências da crise de recursos hídricos e do esgotamento das reservas de petróleo.                    <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/1AkieikFo2r_O4fGpDvrWs2YmpPKqZ4zR/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://drive.google.com/file/d/1Q6Y0VrTXTpyLZFjK39ulJ7D8FQYzxwa5/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1AkieikFo2r_O4fGpDvrWs2YmpPKqZ4zR/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/1Q6Y0VrTXTpyLZFjK39ulJ7D8FQYzxwa5/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -163,9 +198,15 @@ function ModalCEPAL(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                    Tópico A: La crisis de la democracia y sus consecuencias económicas.                    <br/>
+                    Tópico B: Desafíos del desarrollo social en medio al descontrol de la inflación en América Latina.                    <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/19lbJgPAub__xoDh-Ofdxg-wootNaH140/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://drive.google.com/file/d/1-3kC4NsPb99AT-chD8COJYB0d5rjJtdA/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/19lbJgPAub__xoDh-Ofdxg-wootNaH140/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/1-3kC4NsPb99AT-chD8COJYB0d5rjJtdA/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
             <div><p className={styles.p}><i>*Comitê será simulado em Espanhol</i></p></div>
         </Modal.Body>
@@ -189,9 +230,17 @@ function ModalSCONY(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                    1º Julgamento: The People of The State of New York vs. Antron McCray, Yusef Salaam e Raymond Santana.
+                    <br/>
+                    2º Julgamento: The People of The State of New York vs. Kevin Richardson e Korey Wise.
+                    <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/1nO57rQHidh40dYPYvpCKWWxD0Ws8qDfX/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://drive.google.com/file/d/1ecaqSyhMq1o-al2W2ele5OTM0Na6s1LF/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1nO57rQHidh40dYPYvpCKWWxD0Ws8qDfX/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/1ecaqSyhMq1o-al2W2ele5OTM0Na6s1LF/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -214,9 +263,19 @@ function ModalUNSC(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+                <div>
+                  <p>
+                    Topic A: Non-Proliferation of Weapons of Mass Destruction 
+                    <br/>
+                    
+                    Topic B: The Situation In Palestine
+                    <br/>
+                  </p>
+                </div>
+                
             <div className={styles.container}>
-                <a href="#" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="#" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1ZpvNNykus4N0rbRy_3MzrKrcahTnJKOr/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="#" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
             <div><p className={styles.p}><i>*Comitê será simulado em Inglês</i></p></div>
         </Modal.Body>
@@ -240,9 +299,17 @@ function ModalUNOOSA(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                    Tópico A: O espaço como ferramenta para combater o aquecimento global.
+                    <br/>
+                    Tópico B: Democratização do acesso ao ambiente aeroespacial por meio da cooperação internacional entre nações.
+                    <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="#" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="#" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="#" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="#" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
           
         </Modal.Body>
@@ -266,9 +333,15 @@ function ModalCII(props: any) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <div>
+                  <p>
+                    COBERTURA: O GLOBO, FOX NEWS, LE MONDE DIPLOMATIQUE, EL PAÍS + Twitter, Site, Instagram, Fotojornalismo e Telejornalismo.
+                  <br/>
+                  </p>
+            </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" className={styles.btn} >Guia de Estudos</a>
-                <a href="#" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" className={styles.btn} >Guia Estudos</a>
+                <a href="#" className={styles.btn} >Guia Anexo</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
