@@ -19,8 +19,8 @@ export function Team() {
     return (
       <div className="container">
         <div >
-          <h1 id="nosso-time" className={styles.titulo}>Nosso Time</h1>
-          <h5 className={styles.subtitulo}>A função de cada um do nosso time</h5>
+          <h1 id="nosso-time" className={styles.titulo}>NOSSA EQUIPE</h1>
+          <h5 className={styles.subtitulo}>Conheça os membros do Secretariado da V edição da PEMUN</h5>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
@@ -37,7 +37,7 @@ export function Team() {
               <li>
                 <img className={styles.img + " mx-auto"} src={viceSecretariaGeral}/>
                 <h5 className="name">Alice Pimentel</h5>
-                <p>Vice Secretária Geral</p>
+                <p>Vice-Secretária Geral</p>
               </li>
             </ul>
           </div>
@@ -100,7 +100,7 @@ export function Team() {
               <li>
                 <img className={styles.img + " mx-auto"} src={secretariaAcademica7}/>
                 <h5 className="name">Helen Marinho</h5>
-                <p>Secretária Acadêmica</p>
+                <p>Secretária Administrativa-Financeira</p>
               </li>
             </ul>
           </div>

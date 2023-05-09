@@ -321,11 +321,11 @@ export function Committes(){
         <div>
             <div id="committes">
                 <h1 className={styles.titulo}>
-                    V Edição 2023
+                    V EDIÇÃO - 2023
                 </h1>
                 <p className={styles.subtitulo}>
-                    Nossa próxima edição acontecerá de 13 a 17 de julho. <br/>
-                    Conheça os comitês a serem simulados abaixo e acompanhe nosso Instagram @pernambucomun para mais atualizações.
+                    Nossa próxima edição acontecerá de 12 a 16 de julho.
+                    Confira abaixo os comitês a serem simulados e acompanhe nosso instagram @pernambucomun para atualizações sobre as inscrições e o evento!
                 </p>
             </div>
             <div>
@@ -348,7 +348,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.CIJ1}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h5>CIJ1: CORTE INTERNACIONAL DE JUSTIÇA</h5>
+                                    <h5>CIJ: CORTE INTERNACIONAL DE JUSTIÇA</h5>
                                 </div>
                             </div>
                         </div>
@@ -368,7 +368,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.GRU1}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h5>GRU1: GABINETE RUSSO-UCRANIANO</h5>
+                                    <h5>GRU: GABINETE RUSSO-UCRANIANO</h5>
                                 </div>
                             </div>
                         </div>
@@ -391,7 +391,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.CEPAL1}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h5>CEPAL1: COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y CARIBE</h5>
+                                    <h5>CEPAL: COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y CARIBE</h5>
                                 </div>
                             </div>
                         </div>
@@ -401,7 +401,7 @@ export function Committes(){
                                     <img className={styles['card-img']} src={cardImages.SCONY1}/>
                                 </div>
                                 <div className={styles['card-footer']}>
-                                    <h5>SCONY1: SUPREMA CORTE DO ESTADO DE NOVA YORK</h5>
+                                    <h5>SCONY: SUPREMA CORTE DO ESTADO DE NOVA YORK</h5>
                                 </div>
                             </div>
                         </div>
