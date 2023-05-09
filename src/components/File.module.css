@@ -36,13 +36,13 @@
 }
 
 .accordion {
-    
     border-radius: 1rem;
+    border:8px;
 }
 
 .accordion__button {
-    background-color: #f4f4f4;
-    color: #444;
+    background-color: #c30f06;
+    color: #fff;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -51,19 +51,29 @@
 }
 
 .accordion__button:hover {
-    background-color: var(--gray-300);
+    background-color: #e13a31;
+    color:#fff;
+    
 }
 
 .accordion__button:focus {
     outline: transparent;
-    background: var(--gray-400);
+    background: #8e0700;
+    color: #fff;
     border-radius: 0.2rem;
     box-shadow: 0 0 0 1px var(--gray-100);
+    
 }
 
-.accordion__panel {
+.accordion__panel_1advw_133 {
     padding: 20px;
     animation: fadein 0.35s ease-in;
     text-align: center;
+    background-color: #c30f06;
+    
+}
+.a{
+    text-decoration: none;
+    color:#fff;
 }
 

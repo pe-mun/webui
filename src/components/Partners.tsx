@@ -5,10 +5,10 @@ export function Partners(){
     return(
         <div className={styles.divParceiros} id="partners">
             <h1 className={styles.titulo}>
-            Parceiros
+                PARCEIROS
             </h1>
             <h5 className={styles.subtitulo}>
-            Parceiros do PEMUN
+                Conheça os parceiros da PEMUN
             </h5>
             <img className={styles.img} src={Parceiros}/>
         </div>

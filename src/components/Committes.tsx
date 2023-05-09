@@ -24,7 +24,7 @@ import UNOOSA_Equipe from '../assets/UNOOSA_Equipe.jpeg'
 import CII from '../assets/CII.png'
 import CII_Equipe from '../assets/CII_Equipe.jpg'
 
-function ModalPMA(props) {
+function ModalPMA(props: any) {
     return (
       <Modal
         {...props}
@@ -49,7 +49,7 @@ function ModalPMA(props) {
       </Modal>
     );
   }
-function ModalCIJ(props) {
+function ModalCIJ(props: any) {
     return (
         <Modal
         {...props}
@@ -74,7 +74,7 @@ function ModalCIJ(props) {
       </Modal>
     );
   }
-function ModalUNESCO(props) {
+function ModalUNESCO(props: any) {
     return (
       <Modal
         {...props}
@@ -99,7 +99,7 @@ function ModalUNESCO(props) {
       </Modal>
     );
   }
-function ModalGRU(props) {
+function ModalGRU(props: any) {
     return (
       <Modal
         {...props}
@@ -124,7 +124,7 @@ function ModalGRU(props) {
       </Modal>
     );
   }
-function ModalAGNU50(props) {
+function ModalAGNU50(props: any) {
     return (
       <Modal
         {...props}
@@ -149,7 +149,7 @@ function ModalAGNU50(props) {
       </Modal>
     );
   }
-function ModalCEPAL(props) {
+function ModalCEPAL(props: any) {
     return (
         <Modal
         {...props}
@@ -175,7 +175,7 @@ function ModalCEPAL(props) {
       </Modal>
     );
   }
-function ModalSCONY(props) {
+function ModalSCONY(props: any) {
     return (
       <Modal
         {...props}
@@ -200,7 +200,7 @@ function ModalSCONY(props) {
       </Modal>
     );
   }
-function ModalUNSC(props) {
+function ModalUNSC(props: any) {
     return (
         <Modal
         {...props}
@@ -226,7 +226,7 @@ function ModalUNSC(props) {
       </Modal>
     );
   }
-function ModalUNOOSA(props) {
+function ModalUNOOSA(props: any) {
     return (
       <Modal
         {...props}
@@ -252,7 +252,7 @@ function ModalUNOOSA(props) {
       </Modal>
     );
   }
-function ModalCII(props) {
+function ModalCII(props: any) {
     return (
       <Modal
         {...props}
