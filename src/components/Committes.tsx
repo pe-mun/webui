@@ -59,12 +59,12 @@ function ModalCIJ(props: any) {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-                CIJ1: CORTE INTERNACIONAL DE JUSTIÇA
+                CIJ: CORTE INTERNACIONAL DE JUSTIÇA
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://drive.google.com/file/d/1iYnRZLDGTa7xFKGtGdOCrfOYJXU2mXt4/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
                 <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
         </Modal.Body>
@@ -109,7 +109,7 @@ function ModalGRU(props: any) {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            GRU1: GABINETE RUSSO-UCRANIANO
+            GRU: GABINETE RUSSO-UCRANIANO
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -140,7 +140,7 @@ function ModalAGNU50(props: any) {
         <Modal.Body>
             <div className={styles.container}>
                 <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1Q6Y0VrTXTpyLZFjK39ulJ7D8FQYzxwa5/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -159,13 +159,13 @@ function ModalCEPAL(props: any) {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-                CEPAL1: COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y CARIBE
+                CEPAL: COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y CARIBE
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/19lbJgPAub__xoDh-Ofdxg-wootNaH140/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://drive.google.com/file/d/1-3kC4NsPb99AT-chD8COJYB0d5rjJtdA/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
             <div><p className={styles.p}><i>*Comitê será simulado em Espanhol</i></p></div>
         </Modal.Body>
@@ -185,7 +185,7 @@ function ModalSCONY(props: any) {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-                SCONY1: SUPREMA CORTE DO ESTADO DE NOVA YORK
+                SCONY: SUPREMA CORTE DO ESTADO DE NOVA YORK
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
