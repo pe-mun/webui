@@ -39,8 +39,8 @@ function ModalPMA(props: any) {
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn}>Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn}>Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1PiFeO4qY0a8TQhpNyBKIlW1uc3jPmTs7/view?usp=sharing" target="blank" className={styles.btn}>Guia de Estudos</a>
+                <a href="https://drive.google.com/file/d/1xVhrxmExeMsbEFe6zcZvz4BwCiPszE26/view?usp=sharing" target="blank" className={styles.btn}>Guia Anexo: Link</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -65,7 +65,7 @@ function ModalCIJ(props: any) {
         <Modal.Body>
             <div className={styles.container}>
                 <a href="https://drive.google.com/file/d/1iYnRZLDGTa7xFKGtGdOCrfOYJXU2mXt4/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1Z_93gMRvhoVX3tu4GAAbxmd6c_HvhWFP/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -89,8 +89,8 @@ function ModalUNESCO(props: any) {
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1sT3pihQgoF-g6Nfqz0ivIAWYCGLlWqA4/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://drive.google.com/file/d/1gMMAxSwo38suykjBP1sbM9QCJQJdb5mN/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -114,8 +114,8 @@ function ModalGRU(props: any) {
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="#" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -139,7 +139,7 @@ function ModalAGNU50(props: any) {
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://drive.google.com/file/d/1AkieikFo2r_O4fGpDvrWs2YmpPKqZ4zR/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
                 <a href="https://drive.google.com/file/d/1Q6Y0VrTXTpyLZFjK39ulJ7D8FQYzxwa5/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
         </Modal.Body>
@@ -190,8 +190,8 @@ function ModalSCONY(props: any) {
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/1nO57rQHidh40dYPYvpCKWWxD0Ws8qDfX/view?usp=sharing" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://drive.google.com/file/d/1ecaqSyhMq1o-al2W2ele5OTM0Na6s1LF/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -215,8 +215,8 @@ function ModalUNSC(props: any) {
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="#" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="#" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
             <div><p className={styles.p}><i>*Comitê será simulado em Inglês</i></p></div>
         </Modal.Body>
@@ -241,8 +241,8 @@ function ModalUNOOSA(props: any) {
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="#" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="#" target="blank" className={styles.btn} >Guia Anexo: Link</a>
             </div>
           
         </Modal.Body>
@@ -267,8 +267,8 @@ function ModalCII(props: any) {
         </Modal.Header>
         <Modal.Body>
             <div className={styles.container}>
-                <a href="https://www.globo.com/" className={styles.btn} >Guia de Estudos</a>
-                <a href="https://www.globo.com/" className={styles.btn} >Guia Anexo: Link</a>
+                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" className={styles.btn} >Guia de Estudos</a>
+                <a href="#" className={styles.btn} >Guia Anexo: Link</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
