@@ -1,5 +1,7 @@
 import styles from './Committes.module.css'
 import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 import PMA from '../assets/PMA.png'
 import PMA_Equipe from '../assets/PMA_Equipe.jpeg'
@@ -21,6 +23,261 @@ import UNOOSA from '../assets/UNOOSA.png'
 import UNOOSA_Equipe from '../assets/UNOOSA_Equipe.jpeg'
 import CII from '../assets/CII.png'
 import CII_Equipe from '../assets/CII_Equipe.jpg'
+
+function ModalPMA(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            PMA: PROGRAMA MUNDIAL DE ALIMENTOS
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn}>Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn}>Guia Anexo: Link</a>
+            </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalCIJ(props) {
+    return (
+        <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+                CIJ1: CORTE INTERNACIONAL DE JUSTIÇA
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalUNESCO(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+                UNESCO: ORGANIZAÇÃO DAS NAÇÕES UNIDAS PARA A EDUCAÇÃO, CIÊNCIA E CULTURA
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalGRU(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            GRU1: GABINETE RUSSO-UCRANIANO
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalAGNU50(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+                AGNU50: ASSEMBLEIA GERAL DAS NAÇÕES UNIDAS 2050
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalCEPAL(props) {
+    return (
+        <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+                CEPAL1: COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y CARIBE
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+            <div><p className={styles.p}><i>*Comitê será simulado em Espanhol</i></p></div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalSCONY(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+                SCONY1: SUPREMA CORTE DO ESTADO DE NOVA YORK
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalUNSC(props) {
+    return (
+        <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+                UNSC: UNITED NATIONS SECURITY COUNCIL
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+            <div><p className={styles.p}><i>*Comitê será simulado em Inglês</i></p></div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalUNOOSA(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+                UNOOSA: ESCRITÓRIO DAS NAÇÕES UNIDAS PARA ASSUNTOS DO ESPAÇO SIDERAL
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com" target="blank" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+          
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+function ModalCII(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+                CII: COMITÊ DE IMPRENSA INTERNACIONAL
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <div className={styles.container}>
+                <a href="https://www.globo.com/" className={styles.btn} >Guia de Estudos</a>
+                <a href="https://www.globo.com/" className={styles.btn} >Guia Anexo: Link</a>
+            </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+
 
 
 export function Committes(){
@@ -46,6 +303,20 @@ export function Committes(){
         CII: CII,
         CII_Equipe: CII_Equipe,
     });
+    const [modalPMAShow, setModalPMAShow] = React.useState(false);
+    const [modalCIJShow, setModalCIJShow] = React.useState(false);
+    const [modalUNESCOShow, setModalUNESCOShow] = React.useState(false);
+    const [modalGRUShow, setModalGRUShow] = React.useState(false);
+    const [modalAGNU50Show, setModalAGNU50Show] = React.useState(false);
+    const [modalCEPALShow, setModalCEPALShow] = React.useState(false);
+    const [modalSCONYShow, setModalSCONYShow] = React.useState(false);
+    const [modalUNSCShow, setModalUNSCShow] = React.useState(false);
+    const [modalUNOOSAShow, setModalUNOOSAShow] = React.useState(false);
+    const [modalCIIShow, setModalCIIShow] = React.useState(false);
+    
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return(
         <div>
             <div id="committes">
@@ -62,7 +333,7 @@ export function Committes(){
                 <div className={styles['card-container']}>
                     <div className={"row"}>
                         <div className={"col-lg-3 col-md-6 col-sm-6 col-xs-12"}>
-                        <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, PMA: PMA_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, PMA: PMA })}>
+                        <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, PMA: PMA_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, PMA: PMA })} onClick={() => setModalPMAShow(true)}>
                             <div className={styles['card-body']}>
                                 <img className={styles['card-img']} src={cardImages.PMA}/>
                             </div>
@@ -72,7 +343,7 @@ export function Committes(){
                         </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, CIJ1: CIJ_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, CIJ1: CIJ1 })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, CIJ1: CIJ_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, CIJ1: CIJ1 })} onClick={() => setModalCIJShow(true)}>
                                 <div className={styles['card-body']}>
                                     <img className={styles['card-img']} src={cardImages.CIJ1}/>
                                 </div>
@@ -82,7 +353,7 @@ export function Committes(){
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, UNESCO: UNESCO_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, UNESCO: UNESCO })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, UNESCO: UNESCO_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, UNESCO: UNESCO })}onClick={() => setModalUNESCOShow(true)}>
                                 <div className={styles['card-body']}>
                                 <img className={styles['card-img']} src={cardImages.UNESCO}/>
                                 </div>
@@ -92,7 +363,7 @@ export function Committes(){
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, GRU1: GRU_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, GRU1: GRU1 })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, GRU1: GRU_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, GRU1: GRU1 })}onClick={() => setModalGRUShow(true)}>
                                 <div className={styles['card-body']}>
                                     <img className={styles['card-img']} src={cardImages.GRU1}/>
                                 </div>
@@ -105,7 +376,7 @@ export function Committes(){
                     </div>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, AGNU50: AGNU_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, AGNU50: AGNU50 })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, AGNU50: AGNU_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, AGNU50: AGNU50 })}onClick={() => setModalAGNU50Show(true)}>
                                 <div className={styles['card-body']}>
                                     <img className={styles['card-img']} src={cardImages.AGNU50}/>
                                 </div>
@@ -115,7 +386,7 @@ export function Committes(){
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, CEPAL1: CEPAL_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, CEPAL1: CEPAL1 })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, CEPAL1: CEPAL_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, CEPAL1: CEPAL1 })}onClick={() => setModalCEPALShow(true)}>
                                 <div className={styles['card-body']}>
                                     <img className={styles['card-img']} src={cardImages.CEPAL1}/>
                                 </div>
@@ -125,7 +396,7 @@ export function Committes(){
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, SCONY1: SCONY_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, SCONY1: SCONY1 })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, SCONY1: SCONY_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, SCONY1: SCONY1 })}onClick={() => setModalSCONYShow(true)}>
                                 <div className={styles['card-body']}>
                                     <img className={styles['card-img']} src={cardImages.SCONY1}/>
                                 </div>
@@ -135,7 +406,7 @@ export function Committes(){
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, UNSC: UNSC_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, UNSC: UNSC })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, UNSC: UNSC_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, UNSC: UNSC })}onClick={() => setModalUNSCShow(true)}>
                                 <div className={styles['card-body']}>
                                     <img className={styles['card-img']} src={cardImages.UNSC}/>
                                 </div>
@@ -148,7 +419,7 @@ export function Committes(){
                     </div>
                     <div className="row">
                         <div className="col-md-6">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, UNOOSA: UNOOSA_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, UNOOSA: UNOOSA })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, UNOOSA: UNOOSA_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, UNOOSA: UNOOSA })}onClick={() => setModalUNOOSAShow(true)}>
                                 <div className={styles['card-body']}>
                                     <img className={styles['card-img']} src={cardImages.UNOOSA}/>
                                 </div>
@@ -158,7 +429,7 @@ export function Committes(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, CII: CII_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, CII: CII })}>
+                            <div className={styles['card']} onMouseOver={() => setCardImages({ ...cardImages, CII: CII_Equipe })} onMouseOut={() => setCardImages({ ...cardImages, CII: CII })}onClick={() => setModalCIIShow(true)}>
                                 <div className={styles['card-body']}>
                                     <img className={styles['card-img']} src={cardImages.CII}/>
                                 </div>
@@ -172,6 +443,47 @@ export function Committes(){
                 </div>
                 </div>
             </div>
+            <ModalPMA
+                show={modalPMAShow}
+                onHide={() => setModalPMAShow(false)}
+            />
+            <ModalCIJ
+                show={modalCIJShow}
+                onHide={() => setModalCIJShow(false)}
+            />
+            <ModalUNESCO
+                show={modalUNESCOShow}
+                onHide={() => setModalUNESCOShow(false)}
+            />
+            <ModalGRU
+                show={modalGRUShow}
+                onHide={() => setModalGRUShow(false)}
+            />
+            <ModalAGNU50
+                show={modalAGNU50Show}
+                onHide={() => setModalAGNU50Show(false)}
+            />
+            <ModalCEPAL
+                show={modalCEPALShow}
+                onHide={() => setModalCEPALShow(false)}
+            />
+            <ModalSCONY
+                show={modalSCONYShow}
+                onHide={() => setModalSCONYShow(false)}
+            />
+            <ModalUNSC
+                show={modalUNSCShow}
+                onHide={() => setModalUNSCShow(false)}
+            />
+            <ModalUNOOSA
+                show={modalUNOOSAShow}
+                onHide={() => setModalUNOOSAShow(false)}
+            />
+            <ModalCII
+                show={modalCIIShow}
+                onHide={() => setModalCIIShow(false)}
+            />
+
         </div>
 
     );
