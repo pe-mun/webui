@@ -142,7 +142,7 @@ function ModalGRU(props: any) {
                   </p>
             </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/1MZdVEopddjL5BmlOojMtO-hfhBEztCdK/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/15l64L4FyAGEXeQHLTwiL7zHO3rh_cQro/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
         </Modal.Body>
@@ -275,7 +275,7 @@ function ModalUNSC(props: any) {
                 
             <div className={styles.container}>
                 <a href="https://drive.google.com/file/d/1ZpvNNykus4N0rbRy_3MzrKrcahTnJKOr/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
-                <a href="#" target="blank" className={styles.btn} >Guia Anexo</a>
+                <a href="https://drive.google.com/file/d/1lB-TQGmIX2eLcSWScIHNPGYt4IrQ3Zt0/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
             <div><p className={styles.p}><i>*Comitê será simulado em Inglês</i></p></div>
         </Modal.Body>
@@ -340,8 +340,8 @@ function ModalCII(props: any) {
                   </p>
             </div>
             <div className={styles.container}>
-                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" className={styles.btn} >Guia Estudos</a>
-                <a href="#" className={styles.btn} >Guia Anexo</a>
+                <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="#" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
