@@ -308,7 +308,7 @@ function ModalUNOOSA(props: any) {
                   </p>
             </div>
             <div className={styles.container}>
-                <a href="#" target="blank" className={styles.btn} >Guia Estudos</a>
+                <a href="https://drive.google.com/file/d/1ArSVQfgR42_SiEHJExyUBLneXBlljxcg/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="#" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
           
