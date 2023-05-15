@@ -48,6 +48,11 @@ function ModalPMA(props: any) {
                 <a href="https://drive.google.com/file/d/1PiFeO4qY0a8TQhpNyBKIlW1uc3jPmTs7/view?usp=sharing" target="blank" className={styles.btn}>Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/1xVhrxmExeMsbEFe6zcZvz4BwCiPszE26/view?usp=sharing" target="blank" className={styles.btn}>Guia Anexo</a>
             </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc31pQW8LBQGnrUxBvjBPByFWxVCpjXXtJlmfR35Jx_RBybCQ/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEtfGwv-avEDuYMQnMByj16L4uvsaEc02BVk6QHBEr2q3MYg/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Médio</a>
+            </div>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={props.onHide}>Close</Button>
@@ -80,6 +85,10 @@ function ModalCIJ(props: any) {
             <div className={styles.container}>
                 <a href="https://drive.google.com/file/d/1iYnRZLDGTa7xFKGtGdOCrfOYJXU2mXt4/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/1Z_93gMRvhoVX3tu4GAAbxmd6c_HvhWFP/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
+            </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSffkLoSuAe9UcTAwJILr1X0o-FP9g2jJadmoRaB3L1u1Vh8cQ/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior e Médio</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -114,6 +123,11 @@ function ModalUNESCO(props: any) {
                 <a href="https://drive.google.com/file/d/1sT3pihQgoF-g6Nfqz0ivIAWYCGLlWqA4/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/1gMMAxSwo38suykjBP1sbM9QCJQJdb5mN/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeN4VeVqayzC_43SOGNkQYOM7pR5fH2ItaK88ByoCirOKOtFg/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdbC07LMsqkjs_QhjMektJKjQCgf1mueDpG89fCXXVv1Jmkg/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Médio</a>
+            </div>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide}>Close</Button>
@@ -144,6 +158,11 @@ function ModalGRU(props: any) {
             <div className={styles.container}>
                 <a href="https://drive.google.com/file/d/1MZdVEopddjL5BmlOojMtO-hfhBEztCdK/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/15l64L4FyAGEXeQHLTwiL7zHO3rh_cQro/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
+            </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSebBcr6GsefS_qKrVqHpAsHZdP_1aIAVf94UHZaOksOTJ9S6w/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsbgeuIGBHVzmDr9brIKumUgXX_2gAzyjLf1hXide5A-DHVg/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Médio</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -177,6 +196,11 @@ function ModalAGNU50(props: any) {
                 <a href="https://drive.google.com/file/d/1AkieikFo2r_O4fGpDvrWs2YmpPKqZ4zR/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/1Q6Y0VrTXTpyLZFjK39ulJ7D8FQYzxwa5/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScsp9MVqqdGfLQtV1CL-R0K3cbd3tok5VVHhB4UofQegDEo-g/viewform" target="blank" className={styles.btn}>Inscrições - Ensino Superior</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgYgaEakB2O1S6G9SfnBRLvrpTC356TuynXAVYzKmA_uRjrA/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Médio</a>
+            </div>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide}>Close</Button>
@@ -207,6 +231,11 @@ function ModalCEPAL(props: any) {
             <div className={styles.container}>
                 <a href="https://drive.google.com/file/d/19lbJgPAub__xoDh-Ofdxg-wootNaH140/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/1-3kC4NsPb99AT-chD8COJYB0d5rjJtdA/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
+            </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEFrN3P2JWoXd3SxSleEE42hWPZ6aP7pKwId7a1Il3SC66OA/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOYv58uCWQWZnO-XNo6-OBu-jHQqib6nOAkNkqGRZiu3QGSA/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Médio</a>
             </div>
             <div><p className={styles.p}><i>*Comitê será simulado em Espanhol</i></p></div>
         </Modal.Body>
@@ -241,6 +270,11 @@ function ModalSCONY(props: any) {
             <div className={styles.container}>
                 <a href="https://drive.google.com/file/d/1nO57rQHidh40dYPYvpCKWWxD0Ws8qDfX/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/1ecaqSyhMq1o-al2W2ele5OTM0Na6s1LF/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
+            </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3gxwZW9UpxBwk3aNN6DdFnrLaLPOs5lciMoVavZRhXcGY7A/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzKKbFGVDXuLEznJ4qISYGsUCvWVmophYnWQ7ennBQgtUL4A/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Médio</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
@@ -277,6 +311,11 @@ function ModalUNSC(props: any) {
                 <a href="https://drive.google.com/file/d/1ZpvNNykus4N0rbRy_3MzrKrcahTnJKOr/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/1lB-TQGmIX2eLcSWScIHNPGYt4IrQ3Zt0/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLphRKJ6fJL9sCmiRqwjz7YZSBPIsQ9BtTHut1tBA4uHK-qA/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFCrpN4VOK2wntISsDnp3Lh6-dotgkHiz4n2e1lDk-H4TE1A/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Médio</a>
+            </div>
             <div><p className={styles.p}><i>*Comitê será simulado em Inglês</i></p></div>
         </Modal.Body>
         <Modal.Footer>
@@ -311,6 +350,11 @@ function ModalUNOOSA(props: any) {
                 <a href="https://drive.google.com/file/d/1ArSVQfgR42_SiEHJExyUBLneXBlljxcg/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="#" target="blank" className={styles.btn} >Guia Anexo</a>
             </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHSfkzBI69ORcw6g640nuBdszNsOW_v1YReSNLToEX9y28Ng/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdN6eMqfS-yF9WMb4goqVwFXgoFiD8Zzsbnt466Cp9051S__Q/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Médio</a>
+            </div>
           
         </Modal.Body>
         <Modal.Footer>
@@ -341,7 +385,11 @@ function ModalCII(props: any) {
             </div>
             <div className={styles.container}>
                 <a href="https://drive.google.com/file/d/11qrt5ZxktdlQXQx1Q744D_tPH2TQTOBo/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
-                <a href="#" target="blank" className={styles.btn} >Guia Anexo</a>
+                <a href="https://drive.google.com/file/d/1nL9EUc0OVN03lTEamFrxGBJA2u9te9f3/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
+            </div>
+            <hr />
+            <div className={styles.container}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8qBAXQYWam3z-Q85JPCvujjK2iGMaq1E-Fw6JQffr7rVJHA/viewform?usp=sf_link" target="blank" className={styles.btn}>Inscrições - Ensino Superior e Médio</a>
             </div>
         </Modal.Body>
         <Modal.Footer>
