@@ -158,6 +158,7 @@ function ModalGRU(props: any) {
             <div className={styles.container}>
                 <a href="https://drive.google.com/file/d/1MZdVEopddjL5BmlOojMtO-hfhBEztCdK/view?usp=sharing" target="blank" className={styles.btn} >Guia Estudos</a>
                 <a href="https://drive.google.com/file/d/15l64L4FyAGEXeQHLTwiL7zHO3rh_cQro/view?usp=sharing" target="blank" className={styles.btn} >Guia Anexo</a>
+                <a href="https://drive.google.com/file/d/1Y-Ymkw1Bc5dofoFvtQFMzUDNkoVDTYXJ/view?usp=sharing" target="blank" className={styles.btn} >Guia de Regras</a>
             </div>
             <hr />
             <div className={styles.container}>

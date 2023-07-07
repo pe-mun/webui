@@ -304,6 +304,23 @@ export function File() {
                     </div>
                   </AccordionItemPanel>
                 </AccordionItem>
+                <AccordionItem uuid="item-7" onClick={() => onAccordionButtonClick("item-7")} >
+                  <AccordionItemButton className={styles.accordion__button}>
+                      Autorização para menores de 18 anos nas festas
+                  </AccordionItemButton>
+                  <AccordionItemPanel className={styles.accordion__panel_1advw_133}>
+                    <div className={styles.nested}>
+                      <Accordion allowZeroExpanded>
+                        <AccordionItem uuid="nested-item-1" onClick={() => onAccordionButtonClick("nested-item-1")}>
+                          <AccordionItemButton className={styles.accordion__button}>
+                            <a className={styles.a} href="https://drive.google.com/file/d/16u55EbZJh5AP5O0G1JON8q4aziTWBQUH/view?usp=sharing" target='_blank'>DECLARAÇÃO DE PAIS OU RESPONSÁVEIS PARA MENORES (FESTAS)</a>
+                          </AccordionItemButton>
+                        </AccordionItem>
+                      </Accordion>
+                    </div>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
               </Accordion>                     
             </div>
       </div>
